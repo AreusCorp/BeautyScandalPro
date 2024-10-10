@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* 
+HTML 5 Reset Stylesheet v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Editor:Ricochets
+*/
+
+/*--------------base--------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style:none;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+i{
+	font-style: normal;
+}
+img,
+a img {
+	border: 0;
+	vertical-align: top;
+}
+img{
+	max-width: 100%;
+}
+article, aside, dialog, figure, footer, header,
+hgroup, menu, nav, section {
+	display:block;
+}
+
+blockquote, q {
+	quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content:'';
+	content:none;
+}
+iframe{
+	display: block;
+}
+
+/*--------------user--------------*/
+
+ins {
+	background-color:#ff9;
+	color:#000;
+	text-decoration:none;
+}
+
+mark {
+	background-color:#ff9;
+	color:#000;
+	font-style:italic;
+	font-weight:bold;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+	border-bottom:1px dotted #000;
+	cursor:help;
+}
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+hr {
+	display:block;
+	height:1px;
+	border:0;
+	border-top:1px solid #cccccc;
+	margin:1em 0;
+	padding:0;
+}
+
+input, select {
+	vertical-align:middle;
+}
+input,textarea,select{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-webkit-appearance: none;
+}
+
+/*--------------cmn--------------*/
+
+html{
+	font-size: 62.5%;
+}
+body{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	color: #333;
+	font-size: 1.5rem;
+	font-weight: 500;
+	line-height: 1.6;
+	letter-spacing: 0.02rem;
+	-webkit-text-size-adjust: 100%;
+	font-family: "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+}
+input,
+select,
+textarea{
+	font-family: "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+}
+
+@media screen and (max-width: 850px){
+	html{
+		font-size: 55%;
+	}
+	body{
+		letter-spacing: 0;
+	}
+}
