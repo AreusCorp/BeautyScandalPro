@@ -44,7 +44,7 @@
 			</div>
 		</div>
 		<div class="col-12">
-			<div class="msg done">完了メッセージ</div>
+			<div class="msg done">企業情報を登録しました。</div>
 			<div class="msg error">エラーメッセージ
 				<ul>
 					<li>△△は××です</li>
@@ -68,37 +68,37 @@
 						<dl>
 							<dt><p>法人名<span class="must">必須</span></p></dt>
 							<dd>
-								<div class="form_block"><input type="text" name="" value="株式会社BeautyScandal"></div>
+								<div class="form_block"><input type="text" name="" value="法人名法人名法人名" readonly></div>
 							</dd>
 						</dl>
 						<dl>
 							<dt><p>代表名<span class="must">必須</span></p></dt>
 							<dd>
-								<div class="form_block"><input type="text" name="" value="木戸口 里砂"></div>
+								<div class="form_block"><input type="text" name="" value="代表名代表名代表名" readonly></div>
 							</dd>
 						</dl>
 						<dl>
 							<dt><p>郵便番号<span class="must">必須</span></p></dt>
 							<dd>
-								<div class="form_block"><span class="zip">〒</span><input type="text" name="" value="1060032" inputmode="numeric"></div>
+								<div class="form_block"><span class="zip">〒</span><input type="text" name="" value="0000000" readonly inputmode="numeric"></div>
 							</dd>
 						</dl>
 						<dl>
 							<dt><p>住所<span class="must">必須</span></p></dt>
 							<dd>
-								<div class="form_block"><input type="text" name="" value="東京都港区六本木7-6-2"></div>
+								<div class="form_block"><input type="text" name="" value="住所住所住所住所住所住所住所" readonly></div>
 							</dd>
 						</dl>
 						<dl>
 							<dt><p>電話番号<span class="must">必須</span></p></dt>
 							<dd>
-								<div class="form_block"><input type="text" name="" value="0000000000" inputmode="numeric"></div>
+								<div class="form_block"><input type="text" name="" value="0000000000" readonly inputmode="numeric"></div>
 							</dd>
 						</dl>
 						<dl>
 							<dt><p>メールアドレス<span class="must">必須</span></p></dt>
 							<dd>
-								<div class="form_block"><input type="text" name="" value="aaaaaaa@aaaaaaa.aaa"></div>
+								<div class="form_block"><input type="text" name="" value="mail@mail.mail" readonly></div>
 							</dd>
 						</dl>
 					</div>
@@ -111,8 +111,8 @@
 						<dl>
 							<dt><p>シェアEC</p></dt>
 							<dd>
-								<div class="form_inline"><input type="radio" name="shareec" id="shareec1" value="0"><label for="shareec1">行う</label></div>
-								<div class="form_inline"><input type="radio" name="shareec" id="shareec2" value="1"><label for="shareec2">行わない</label></div>
+								<div class="form_inline"><input type="radio" name="shareec" id="shareec1" value="0" checked readonly><label for="shareec1">行う</label></div>
+								<div class="form_inline"><input type="radio" name="shareec" id="shareec2" value="1" readonly><label for="shareec2">行わない</label></div>
 							</dd>
 						</dl>
 					</div>
@@ -125,25 +125,25 @@
 						<dl>
 							<dt><p>SHOP ID</p></dt>
 							<dd>
-								<div class="form_block"><input type="text" name="" value=""></div>
+								<div class="form_block"><input type="text" name="" value="0000000000" readonly></div>
 							</dd>
 						</dl>
 						<dl>
 							<dt><p>SITE PASS</p></dt>
 							<dd>
-								<div class="form_block"><input type="text" name="" value=""></div>
+								<div class="form_block"><input type="text" name="" value="0000000000" readonly></div>
 							</dd>
 						</dl>
 						<dl>
 							<dt><p>CARD API KEY</p></dt>
 							<dd>
-								<div class="form_block"><input type="text" name="" value=""></div>
+								<div class="form_block"><input type="text" name="" value="0000000000" readonly></div>
 							</dd>
 						</dl>
 						<dl>
 							<dt><p>CARD PUB KEY</p></dt>
 							<dd>
-								<div class="form_block"><input type="text" name="" value=""></div>
+								<div class="form_block"><input type="text" name="" value="0000000000" readonly></div>
 							</dd>
 						</dl>
 					</div>
@@ -156,8 +156,8 @@
 						<dl>
 							<dt><p>支払い方法<span class="must">必須</span></p></dt>
 							<dd>
-								<div class="form_inline"><input type="radio" name="pay" id="pay1" value="0"><label for="pay1">請求書払い</label></div>
-								<div class="form_inline"><input type="radio" name="pay" id="pay2" value="1"><label for="pay2">クレジットカード</label></div>
+								<div class="form_inline"><input type="radio" name="pay" id="pay1" value="0" readonly><label for="pay1">請求書払い</label></div>
+								<div class="form_inline"><input type="radio" name="pay" id="pay2" value="1" checked readonly><label for="pay2">クレジットカード</label></div>
 							</dd>
 						</dl>
 					</div>
@@ -170,13 +170,13 @@
 						<dl>
 							<dt><p>カード番号</p></dt>
 							<dd>
-								<div class="form_block"><input type="text" name="" value="0000000000000000" inputmode="numeric"></div>
+								<div class="form_block"><input type="text" name="" value="0000000000000000" readonly inputmode="numeric"></div>
 							</dd>
 						</dl>
 						<dl>
 							<dt><p>クレジットカード名義人</p></dt>
 							<dd>
-								<div class="form_block"><input type="text" name="" value="NAME NAME"></div>
+								<div class="form_block"><input type="text" name="" value="名義人名義人" readonly></div>
 							</dd>
 						</dl>
 						<dl>
@@ -184,8 +184,8 @@
 							<dd>
 								<div class="form_flex">
 									<div>
-										<select>
-											<option>01</option>
+										<select readonly>
+											<option selected>01</option>
 											<option>02</option>
 											<option>03</option>
 											<option>04</option>
@@ -200,14 +200,14 @@
 										</select>月　
 									</div>
 									<div>
-										<select>
+										<select readonly>
 											<option>24</option>
 											<option>25</option>
 											<option>26</option>
 											<option>27</option>
 											<option>28</option>
 											<option>29</option>
-											<option>30</option>
+											<option selected>30</option>
 											<option>31</option>
 											<option>32</option>
 											<option>33</option>
@@ -229,23 +229,13 @@
 						<dl>
 							<dt><p>セキュリティコード</p></dt>
 							<dd>
-								<div class="form_flex"><input type="password" name="" value="000"><span><i></i></span></div>
+								<div class="form_flex"><input type="password" name="" value="000" readonly><span><i></i></span></div>
 							</dd>
 						</dl>
 					</div>
 				</div>
 			</div>
-			<div class="col-12">
-				<div class="col_in">
-				<div class="heading2">「株式会社BeautyScandal」を削除</div>
-					<div class="content">
-						<input type="button" value="削除" class="btn3 action_delete">
-						<p class="help">削除すると復元できません。<br>
-						削除する企業に登録されているサロン、スタッフも削除されます。</p>
-					</div>
-				</div>
-			</div>
-			<div class="form_submit"><input type="button" value="保存する" class="btn1" onclick="#"></div>
+			<div class="form_submit"><input type="button" value="一覧へ戻る" class="btn1" onclick="location.href='./'"></div>
 		</form>
 	</div>
 	

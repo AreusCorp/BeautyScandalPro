@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<title>サロン情報｜Beauty Scandal Pro</title>
+<title>企業情報｜Beauty Scandal Pro</title>
 <meta name="robots" content="noindex,nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
 <link rel="stylesheet" href="/css/style.css">
@@ -29,19 +29,27 @@
 	
 	<div class="row" id="m_title">
 		<div class="col-12">
-			<div class="heading1">新規サロン登録</div>
-		</div>
-	</div>
-	
-	<div class="row" id="m_list">
-		<div class="col-12">
-			<div class="msg error">該当するサロンは既に別の代理店にて登録されています。</div>
+			<div class="heading1">新規企業登録</div>
 		</div>
 	</div>
 
 	<div class="row">
 		<form class="form">
-			<div class="form_submit"><input type="button" value="戻る" class="btn1" onclick="location.href='search.php'"></div>
+			<div class="col-12">
+				<div class="col_in">
+					<div class="heading2">企業検索</div>
+					<div class="content">
+						<dl>
+							<dt><p>電話番号<span class="must">必須</span></p></dt>
+							<dd>
+								<div class="form_block"><input type="text" name="" value="" inputmode="numeric"></div>
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+			<div class="form_submit"><input type="button" value="検索する（該当あり）" class="btn1" onclick="location.href='add.php'"></div>
+			<div class="form_submit"><input type="button" value="検索する（該当なし）" class="btn1" onclick="location.href='add2.php'"></div>
 		</form>
 	</div>
 	
@@ -49,9 +57,7 @@
 		<ul>
 			<li><a href="/admin/"><span>ダッシュボード</span></a></li>
 			<li><a href="/company/"><span>企業一覧</span></a></li>
-			<li><a href="/company/view.php"><span>株式会社BeautyScandal</span></a></li>
-			<li><a href="/company/salon/"><span>サロン一覧</span></a></li>
-			<li><a href="/company/salon/add.php"><span>新規サロン登録</span></a></li>
+			<li><a href="/company/search.php"><span>新規企業登録（企業検索）</span></a></li>
 		</ul>
 	</div>
 </main>
@@ -64,9 +70,9 @@
 				<li class="st"><a href="/order/"><span class="material-symbols-outlined">receipt_long</span>注文一覧</a></li>
 				<li class="st active"><a href="/company/"><span class="material-symbols-outlined">apartment</span>企業一覧<i></i></a>
 				<ul>
-					<li class="active"><a href="/company/view.php">株式会社BeautyScandal<i></i></a>
+					<li><a href="/company/view.php">株式会社BeautyScandal<i></i></a>
 					<ul>
-						<li class="active"><a href="/company/salon/">サロン一覧</a></li>
+						<li><a href="/company/salon/">サロン一覧</a></li>
 						<li><a href="/company/staff/">スタッフ一覧</a></li>
 					</ul></li>
 					<li><a href="/company/view.php">株式会社BeautyScandal<i></i></a>
@@ -97,37 +103,37 @@
 				</ul></li>
 				<li class="st"><a href="/agency/"><span class="material-symbols-outlined">storefront</span>代理店一覧<i></i></a>
 				<ul>
-					<li><a href="/agency/view.php">代理店AAAAAAAAAA<i></i></a>
+					<li><a href="/company/view.php">代理店AAAAAAAAAA<i></i></a>
 					<ul>
 						<li><a href="/agency/branch/">支店一覧</a></li>
 						<li><a href="/agency/staff/">従業員一覧</a></li>
 					</ul></li>
-					<li><a href="/agency/view.php">代理店AAAAAAAAAA<i></i></a>
+					<li><a href="/company/view.php">代理店AAAAAAAAAA<i></i></a>
 					<ul>
 						<li><a href="/agency/branch/">支店一覧</a></li>
 						<li><a href="/agency/staff/">従業員一覧</a></li>
 					</ul></li>
-					<li><a href="/agency/view.php">代理店AAAAAAAAAA<i></i></a>
+					<li><a href="/company/view.php">代理店AAAAAAAAAA<i></i></a>
 					<ul>
 						<li><a href="/agency/branch/">支店一覧</a></li>
 						<li><a href="/agency/staff/">従業員一覧</a></li>
 					</ul></li>
-					<li><a href="/agency/view.php">代理店AAAAAAAAAA<i></i></a>
+					<li><a href="/company/view.php">代理店AAAAAAAAAA<i></i></a>
 					<ul>
 						<li><a href="/agency/branch/">支店一覧</a></li>
 						<li><a href="/agency/staff/">従業員一覧</a></li>
 					</ul></li>
-					<li><a href="/agency/view.php">代理店AAAAAAAAAA<i></i></a>
+					<li><a href="/company/view.php">代理店AAAAAAAAAA<i></i></a>
 					<ul>
 						<li><a href="/agency/branch/">支店一覧</a></li>
 						<li><a href="/agency/staff/">従業員一覧</a></li>
 					</ul></li>
-					<li><a href="/agency/view.php">代理店AAAAAAAAAA<i></i></a>
+					<li><a href="/company/view.php">代理店AAAAAAAAAA<i></i></a>
 					<ul>
 						<li><a href="/agency/branch/">支店一覧</a></li>
 						<li><a href="/agency/staff/">従業員一覧</a></li>
 					</ul></li>
-					<li><a href="/agency/view.php">代理店AAAAAAAAAA<i></i></a>
+					<li><a href="/company/view.php">代理店AAAAAAAAAA<i></i></a>
 					<ul>
 						<li><a href="/agency/branch/">支店一覧</a></li>
 						<li><a href="/agency/staff/">従業員一覧</a></li>

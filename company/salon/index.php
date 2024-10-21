@@ -51,7 +51,7 @@
 	<div class="row">
 		<div class="col-12">
 			<div class="list_action">
-				<div class="btn2 new"><a href="add.php">新規サロン登録</a></div>
+				<div class="btn2 new"><a href="search.php">新規サロン登録</a></div>
 			</div>
 		</div>
 		<div class="col-12">

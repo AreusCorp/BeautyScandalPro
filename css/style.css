@@ -1310,6 +1310,11 @@ table.datatable .column-title ul.list_action li:last-child{
 .form input[readonly]{
 	background-color: #f0f0f0;
 }
+.form input[type="radio"][readonly],
+.form input[type="radio"][readonly]+label,
+.form select[readonly]{
+	pointer-events: none;
+}
 .canvas_area{
 	border: 1px solid #ddd;
 	width: 150px;

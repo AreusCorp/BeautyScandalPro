@@ -29,22 +29,7 @@
 	
 	<div class="row" id="m_title">
 		<div class="col-12">
-			<div class="heading1">サロン情報<span> - BeautyScandalSalon</span></div>
-		</div>
-	</div>
-	
-	<div class="row" id="m_list">
-		<div class="col-12">
-			<div class="list_dev2">
-				<ul class="btn2">
-					<li><a href="/company/view.php">企業情報</a></li>
-					<li><a href="/company/salon/" class="active-tab">サロン</a></li>
-					<li><a href="/company/staff/">スタッフ</a></li>
-				</ul>
-			</div>
-		</div>
-		<div class="col-12">
-			<div class="msg done">サロン情報を登録しました。</div>
+			<div class="heading1">新規サロン登録</div>
 		</div>
 	</div>
 
@@ -57,43 +42,49 @@
 						<dl>
 							<dt><p>BSサロンコード</p></dt>
 							<dd>
-								<div class="form_block"><input type="text" name="" value="0000000000" readonly inputmode="numeric"></div>
+								<div class="form_block"><input type="text" name="" value="0000000000" readonly="" inputmode="numeric"></div>
+							</dd>
+						</dl>
+						<dl>
+							<dt><p>企業</p></dt>
+							<dd>
+								<div class="form_block"><input type="text" name="" value="" readonly=""></div>
 							</dd>
 						</dl>
 						<dl>
 							<dt><p>サロン名<span class="must">必須</span></p></dt>
 							<dd>
-								<div class="form_block"><input type="text" name="" value="BeautyScandalSalon"></div>
+								<div class="form_block"><input type="text" name="" value=""></div>
 							</dd>
 						</dl>
 						<dl>
 							<dt><p>郵便番号<span class="must">必須</span></p></dt>
 							<dd>
-								<div class="form_block"><span class="zip">〒</span><input type="text" name="" value="1060032" inputmode="numeric"></div>
+								<div class="form_block"><span class="zip">〒</span><input type="text" name="" value="" inputmode="numeric"></div>
 							</dd>
 						</dl>
 						<dl>
 							<dt><p>住所<span class="must">必須</span></p></dt>
 							<dd>
-								<div class="form_block"><input type="text" name="" value="東京都港区六本木7-6-2"></div>
+								<div class="form_block"><input type="text" name="" value=""></div>
 							</dd>
 						</dl>
 						<dl>
 							<dt><p>電話番号<span class="must">必須</span></p></dt>
 							<dd>
-								<div class="form_block"><input type="text" name="" value="0000000000" inputmode="numeric"></div>
+								<div class="form_block"><input type="text" name="" value="" inputmode="numeric"></div>
 							</dd>
 						</dl>
 						<dl>
 							<dt><p>メールアドレス<span class="must">必須</span></p></dt>
 							<dd>
-								<div class="form_block"><input type="text" name="" value="aaaaaaa@aaaaaaa.aaa"></div>
+								<div class="form_block"><input type="text" name="" value=""></div>
 							</dd>
 						</dl>
 						<dl>
 							<dt><p>サロンPASS</p></dt>
 							<dd>
-								<div class="form_block"><input type="text" name="" value="サロンPass"></div>
+								<div class="form_block"><input type="text" name="" value=""></div>
 							</dd>
 						</dl>
 					</div>
@@ -179,22 +170,13 @@
 						<dl>
 							<dt><p>代理店サロンコード</p></dt>
 							<dd>
-								<div class="form_block"><input type="text" name="" value="000000"></div>
+								<div class="form_block"><input type="text" name="" value=""></div>
 							</dd>
 						</dl>
 					</div>
 				</div>
 			</div>
-			<div class="col-12">
-				<div class="col_in">
-				<div class="heading2">「BeautyScandalSalon」を削除</div>
-					<div class="content">
-						<input type="button" value="削除" class="btn3 action_delete">
-						<p class="help">削除すると復元できません。</p>
-					</div>
-				</div>
-			</div>
-			<div class="form_submit"><input type="button" value="保存する" class="btn1" onclick="#"></div>
+			<div class="form_submit"><input type="button" value="登録する" class="btn1" onclick="location.href='view.php'"></div>
 		</form>
 	</div>
 	
@@ -204,7 +186,7 @@
 			<li><a href="/company/"><span>企業一覧</span></a></li>
 			<li><a href="/company/view.php"><span>株式会社BeautyScandal</span></a></li>
 			<li><a href="/company/salon/"><span>サロン一覧</span></a></li>
-			<li><a href="/company/salon/view.php"><span>BeautyScandalSalon</span></a></li>
+			<li><a href="/company/salon/add.php"><span>新規サロン登録</span></a></li>
 		</ul>
 	</div>
 </main>

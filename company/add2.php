@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<title>サロン情報｜Beauty Scandal Pro</title>
+<title>企業情報｜Beauty Scandal Pro</title>
 <meta name="robots" content="noindex,nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
 <link rel="stylesheet" href="/css/style.css">
@@ -29,22 +29,17 @@
 	
 	<div class="row" id="m_title">
 		<div class="col-12">
-			<div class="heading1">サロン情報<span> - BeautyScandalSalon</span></div>
+			<div class="heading1">新規企業登録</div>
 		</div>
 	</div>
 	
 	<div class="row" id="m_list">
 		<div class="col-12">
-			<div class="list_dev2">
-				<ul class="btn2">
-					<li><a href="/company/view.php">企業情報</a></li>
-					<li><a href="/company/salon/" class="active-tab">サロン</a></li>
-					<li><a href="/company/staff/">スタッフ</a></li>
+			<div class="msg error">企業情報がみつかりませんでした。
+				<ul>
+					<li>新規登録してください。</li>
 				</ul>
 			</div>
-		</div>
-		<div class="col-12">
-			<div class="msg done">サロン情報を登録しました。</div>
 		</div>
 	</div>
 
@@ -52,62 +47,48 @@
 		<form class="form">
 			<div class="col-12">
 				<div class="col_in">
-					<div class="heading2">サロン情報</div>
+					<div class="heading2">法人情報</div>
 					<div class="content">
 						<dl>
-							<dt><p>BSサロンコード</p></dt>
+							<dt><p>BS企業コード</p></dt>
 							<dd>
 								<div class="form_block"><input type="text" name="" value="0000000000" readonly inputmode="numeric"></div>
 							</dd>
 						</dl>
 						<dl>
-							<dt><p>サロン名<span class="must">必須</span></p></dt>
+							<dt><p>法人名<span class="must">必須</span></p></dt>
 							<dd>
-								<div class="form_block"><input type="text" name="" value="BeautyScandalSalon"></div>
+								<div class="form_block"><input type="text" name="" value=""></div>
+							</dd>
+						</dl>
+						<dl>
+							<dt><p>代表名<span class="must">必須</span></p></dt>
+							<dd>
+								<div class="form_block"><input type="text" name="" value=""></div>
 							</dd>
 						</dl>
 						<dl>
 							<dt><p>郵便番号<span class="must">必須</span></p></dt>
 							<dd>
-								<div class="form_block"><span class="zip">〒</span><input type="text" name="" value="1060032" inputmode="numeric"></div>
+								<div class="form_block"><span class="zip">〒</span><input type="text" name="" value="" inputmode="numeric"></div>
 							</dd>
 						</dl>
 						<dl>
 							<dt><p>住所<span class="must">必須</span></p></dt>
 							<dd>
-								<div class="form_block"><input type="text" name="" value="東京都港区六本木7-6-2"></div>
+								<div class="form_block"><input type="text" name="" value=""></div>
 							</dd>
 						</dl>
 						<dl>
 							<dt><p>電話番号<span class="must">必須</span></p></dt>
 							<dd>
-								<div class="form_block"><input type="text" name="" value="0000000000" inputmode="numeric"></div>
+								<div class="form_block"><input type="text" name="" value="" inputmode="numeric"></div>
 							</dd>
 						</dl>
 						<dl>
 							<dt><p>メールアドレス<span class="must">必須</span></p></dt>
 							<dd>
-								<div class="form_block"><input type="text" name="" value="aaaaaaa@aaaaaaa.aaa"></div>
-							</dd>
-						</dl>
-						<dl>
-							<dt><p>サロンPASS</p></dt>
-							<dd>
-								<div class="form_block"><input type="text" name="" value="サロンPass"></div>
-							</dd>
-						</dl>
-					</div>
-				</div>
-			</div>
-			<div class="col-12">
-				<div class="col_in">
-				<div class="heading2">発注権限</div>
-					<div class="content">
-						<dl>
-							<dt><p>発注権限<span class="must">必須</span></p></dt>
-							<dd>
-								<div class="form_inline"><input type="radio" name="auth" id="auth1" value="0"><label for="auth1">発注不可</label></div>
-								<div class="form_inline"><input type="radio" name="auth" id="auth2" value="1"><label for="auth2">発注可能</label></div>
+								<div class="form_block"><input type="text" name="" value=""></div>
 							</dd>
 						</dl>
 					</div>
@@ -129,57 +110,30 @@
 			</div>
 			<div class="col-12">
 				<div class="col_in">
-				<div class="heading2">代理店</div>
+					<div class="heading2">SMBC GMO登録</div>
 					<div class="content">
 						<dl>
-							<dt><p>代理店選択</p></dt>
+							<dt><p>SHOP ID</p></dt>
 							<dd>
-								<div class="form_block">
-									<select>
-										<option>代理店AAA</option>
-										<option>代理店BBB</option>
-										<option>代理店CCC</option>
-										<option>代理店DDD</option>
-										<option>代理店EEE</option>
-										<option>代理店FFF</option>
-									</select>
-								</div>
+								<div class="form_block"><input type="text" name="" value=""></div>
 							</dd>
 						</dl>
 						<dl>
-							<dt><p>支店選択</p></dt>
+							<dt><p>SITE PASS</p></dt>
 							<dd>
-								<div class="form_block">
-									<select>
-										<option>支店AAA</option>
-										<option>支店BBB</option>
-										<option>支店CCC</option>
-										<option>支店DDD</option>
-										<option>支店EEE</option>
-										<option>支店FFF</option>
-									</select>
-								</div>
+								<div class="form_block"><input type="text" name="" value=""></div>
 							</dd>
 						</dl>
 						<dl>
-							<dt><p>担当者選択</p></dt>
+							<dt><p>CARD API KEY</p></dt>
 							<dd>
-								<div class="form_block">
-									<select>
-										<option>担当者AAA</option>
-										<option>担当者BBB</option>
-										<option>担当者CCC</option>
-										<option>担当者DDD</option>
-										<option>担当者EEE</option>
-										<option>担当者FFF</option>
-									</select>
-								</div>
+								<div class="form_block"><input type="text" name="" value=""></div>
 							</dd>
 						</dl>
 						<dl>
-							<dt><p>代理店サロンコード</p></dt>
+							<dt><p>CARD PUB KEY</p></dt>
 							<dd>
-								<div class="form_block"><input type="text" name="" value="000000"></div>
+								<div class="form_block"><input type="text" name="" value=""></div>
 							</dd>
 						</dl>
 					</div>
@@ -187,14 +141,91 @@
 			</div>
 			<div class="col-12">
 				<div class="col_in">
-				<div class="heading2">「BeautyScandalSalon」を削除</div>
+				<div class="heading2">月額支払い方法</div>
 					<div class="content">
-						<input type="button" value="削除" class="btn3 action_delete">
-						<p class="help">削除すると復元できません。</p>
+						<dl>
+							<dt><p>支払い方法<span class="must">必須</span></p></dt>
+							<dd>
+								<div class="form_inline"><input type="radio" name="pay" id="pay1" value="0"><label for="pay1">請求書払い</label></div>
+								<div class="form_inline"><input type="radio" name="pay" id="pay2" value="1"><label for="pay2">クレジットカード</label></div>
+							</dd>
+						</dl>
 					</div>
 				</div>
 			</div>
-			<div class="form_submit"><input type="button" value="保存する" class="btn1" onclick="#"></div>
+			<div class="col-12" id="payment">
+				<div class="col_in">
+				<div class="heading2">カード情報</div>
+					<div class="content">
+						<dl>
+							<dt><p>カード番号</p></dt>
+							<dd>
+								<div class="form_block"><input type="text" name="" value="" inputmode="numeric"></div>
+							</dd>
+						</dl>
+						<dl>
+							<dt><p>クレジットカード名義人</p></dt>
+							<dd>
+								<div class="form_block"><input type="text" name="" value=""></div>
+							</dd>
+						</dl>
+						<dl>
+							<dt><p>有効期限</p></dt>
+							<dd>
+								<div class="form_flex">
+									<div>
+										<select>
+											<option>01</option>
+											<option>02</option>
+											<option>03</option>
+											<option>04</option>
+											<option>05</option>
+											<option>06</option>
+											<option>07</option>
+											<option>08</option>
+											<option>09</option>
+											<option>10</option>
+											<option>11</option>
+											<option>12</option>
+										</select>月　
+									</div>
+									<div>
+										<select>
+											<option>24</option>
+											<option>25</option>
+											<option>26</option>
+											<option>27</option>
+											<option>28</option>
+											<option>29</option>
+											<option>30</option>
+											<option>31</option>
+											<option>32</option>
+											<option>33</option>
+											<option>34</option>
+											<option>35</option>
+											<option>36</option>
+											<option>37</option>
+											<option>38</option>
+											<option>39</option>
+											<option>40</option>
+											<option>41</option>
+											<option>42</option>
+											<option>43</option>
+										</select>年
+									</div>
+								</div>
+							</dd>
+						</dl>
+						<dl>
+							<dt><p>セキュリティコード</p></dt>
+							<dd>
+								<div class="form_flex"><input type="password" name="" value=""><span><i></i></span></div>
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+			<div class="form_submit"><input type="button" value="登録する" class="btn1" onclick="location.href='./'"></div>
 		</form>
 	</div>
 	
@@ -202,9 +233,8 @@
 		<ul>
 			<li><a href="/admin/"><span>ダッシュボード</span></a></li>
 			<li><a href="/company/"><span>企業一覧</span></a></li>
-			<li><a href="/company/view.php"><span>株式会社BeautyScandal</span></a></li>
-			<li><a href="/company/salon/"><span>サロン一覧</span></a></li>
-			<li><a href="/company/salon/view.php"><span>BeautyScandalSalon</span></a></li>
+			<li><a href="/company/search.php"><span>新規企業登録（企業検索）</span></a></li>
+			<li><a href="/company/add.php"><span>新規企業登録</span></a></li>
 		</ul>
 	</div>
 </main>
@@ -217,9 +247,9 @@
 				<li class="st"><a href="/order/"><span class="material-symbols-outlined">receipt_long</span>注文一覧</a></li>
 				<li class="st active"><a href="/company/"><span class="material-symbols-outlined">apartment</span>企業一覧<i></i></a>
 				<ul>
-					<li class="active"><a href="/company/view.php">株式会社BeautyScandal<i></i></a>
+					<li><a href="/company/view.php">株式会社BeautyScandal<i></i></a>
 					<ul>
-						<li class="active"><a href="/company/salon/">サロン一覧</a></li>
+						<li><a href="/company/salon/">サロン一覧</a></li>
 						<li><a href="/company/staff/">スタッフ一覧</a></li>
 					</ul></li>
 					<li><a href="/company/view.php">株式会社BeautyScandal<i></i></a>
@@ -250,37 +280,37 @@
 				</ul></li>
 				<li class="st"><a href="/agency/"><span class="material-symbols-outlined">storefront</span>代理店一覧<i></i></a>
 				<ul>
-					<li><a href="/agency/view.php">代理店AAAAAAAAAA<i></i></a>
+					<li><a href="/company/view.php">代理店AAAAAAAAAA<i></i></a>
 					<ul>
 						<li><a href="/agency/branch/">支店一覧</a></li>
 						<li><a href="/agency/staff/">従業員一覧</a></li>
 					</ul></li>
-					<li><a href="/agency/view.php">代理店AAAAAAAAAA<i></i></a>
+					<li><a href="/company/view.php">代理店AAAAAAAAAA<i></i></a>
 					<ul>
 						<li><a href="/agency/branch/">支店一覧</a></li>
 						<li><a href="/agency/staff/">従業員一覧</a></li>
 					</ul></li>
-					<li><a href="/agency/view.php">代理店AAAAAAAAAA<i></i></a>
+					<li><a href="/company/view.php">代理店AAAAAAAAAA<i></i></a>
 					<ul>
 						<li><a href="/agency/branch/">支店一覧</a></li>
 						<li><a href="/agency/staff/">従業員一覧</a></li>
 					</ul></li>
-					<li><a href="/agency/view.php">代理店AAAAAAAAAA<i></i></a>
+					<li><a href="/company/view.php">代理店AAAAAAAAAA<i></i></a>
 					<ul>
 						<li><a href="/agency/branch/">支店一覧</a></li>
 						<li><a href="/agency/staff/">従業員一覧</a></li>
 					</ul></li>
-					<li><a href="/agency/view.php">代理店AAAAAAAAAA<i></i></a>
+					<li><a href="/company/view.php">代理店AAAAAAAAAA<i></i></a>
 					<ul>
 						<li><a href="/agency/branch/">支店一覧</a></li>
 						<li><a href="/agency/staff/">従業員一覧</a></li>
 					</ul></li>
-					<li><a href="/agency/view.php">代理店AAAAAAAAAA<i></i></a>
+					<li><a href="/company/view.php">代理店AAAAAAAAAA<i></i></a>
 					<ul>
 						<li><a href="/agency/branch/">支店一覧</a></li>
 						<li><a href="/agency/staff/">従業員一覧</a></li>
 					</ul></li>
-					<li><a href="/agency/view.php">代理店AAAAAAAAAA<i></i></a>
+					<li><a href="/company/view.php">代理店AAAAAAAAAA<i></i></a>
 					<ul>
 						<li><a href="/agency/branch/">支店一覧</a></li>
 						<li><a href="/agency/staff/">従業員一覧</a></li>
