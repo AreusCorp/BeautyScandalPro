@@ -35,7 +35,11 @@
 	
 	<div class="row" id="m_list">
 		<div class="col-12">
-			<div class="msg error">該当するサロンは既に別の代理店にて登録されています。</div>
+			<div class="msg error">そのサロンは既に登録されています。
+				<ul>
+					<li>登録ID : t-miya****reus.jp</li>
+				</ul>
+			</div>
 		</div>
 	</div>
 
