@@ -40,7 +40,8 @@
 		<div class="col-12">
 			<div class="list_dev">
                 <ul>
-                    <li><a href="#" class="active-tab">すべて(8)</a></li>
+                    <li><a href="#" class="active-tab">すべて(11)</a></li>
+                    <li><a href="#" class="">サロン承認待ち(3)</a></li>
                     <li><a href="#" class="">未承認(3)</a></li>
                     <li><a href="#" class="">承認済み(5)</a></li>
                 </ul>
@@ -66,7 +67,19 @@
 									<div class="column-info"><span>東京都港区六本木7-6-2</span><span><a href="tel:00-0000-0000">00-0000-0000</a></span></div>
 									<ul class="list_action">
 										<li><a href="view_forsalon.php">サロン情報詳細</a></li>
-										<li><a href="#" class="action_duplicate">複製</a></li>
+										<li><a href="#" class="action_delete">削除</a></li>
+									</ul>
+								</td>
+								<td class="column-agency">代理店AAA</td>
+								<td class="column-status"><span class="tag2">サロン承認待ち</span></td>
+							</tr>
+							<tr>
+								<td class="column-code">0000000000</td>
+								<td class="column-title">
+									<a href="view_forsalon.php">BeautyScandalSalon</a>
+									<div class="column-info"><span>東京都港区六本木7-6-2</span><span><a href="tel:00-0000-0000">00-0000-0000</a></span></div>
+									<ul class="list_action">
+										<li><a href="view_forsalon.php">サロン情報詳細</a></li>
 										<li><a href="#" class="action_delete">削除</a></li>
 									</ul>
 								</td>
@@ -80,21 +93,6 @@
 									<div class="column-info"><span>東京都港区六本木7-6-2</span><span><a href="tel:00-0000-0000">00-0000-0000</a></span></div>
 									<ul class="list_action">
 										<li><a href="view_forsalon.php">サロン情報詳細</a></li>
-										<li><a href="#" class="action_duplicate">複製</a></li>
-										<li><a href="#" class="action_delete">削除</a></li>
-									</ul>
-								</td>
-								<td class="column-agency">代理店AAA</td>
-								<td class="column-status"><span class="tag2">未承認</span></td>
-							</tr>
-							<tr>
-								<td class="column-code">0000000000</td>
-								<td class="column-title">
-									<a href="view_forsalon.php">BeautyScandalSalon</a>
-									<div class="column-info"><span>東京都港区六本木7-6-2</span><span><a href="tel:00-0000-0000">00-0000-0000</a></span></div>
-									<ul class="list_action">
-										<li><a href="view_forsalon.php">サロン情報詳細</a></li>
-										<li><a href="#" class="action_duplicate">複製</a></li>
 										<li><a href="#" class="action_delete">削除</a></li>
 									</ul>
 								</td>
@@ -108,7 +106,6 @@
 									<div class="column-info"><span>東京都港区六本木7-6-2</span><span><a href="tel:00-0000-0000">00-0000-0000</a></span></div>
 									<ul class="list_action">
 										<li><a href="view_forsalon.php">サロン情報詳細</a></li>
-										<li><a href="#" class="action_duplicate">複製</a></li>
 										<li><a href="#" class="action_delete">削除</a></li>
 									</ul>
 								</td>
@@ -122,7 +119,6 @@
 									<div class="column-info"><span>東京都港区六本木7-6-2</span><span><a href="tel:00-0000-0000">00-0000-0000</a></span></div>
 									<ul class="list_action">
 										<li><a href="view_forsalon.php">サロン情報詳細</a></li>
-										<li><a href="#" class="action_duplicate">複製</a></li>
 										<li><a href="#" class="action_delete">削除</a></li>
 									</ul>
 								</td>
@@ -136,7 +132,6 @@
 									<div class="column-info"><span>東京都港区六本木7-6-2</span><span><a href="tel:00-0000-0000">00-0000-0000</a></span></div>
 									<ul class="list_action">
 										<li><a href="view_forsalon.php">サロン情報詳細</a></li>
-										<li><a href="#" class="action_duplicate">複製</a></li>
 										<li><a href="#" class="action_delete">削除</a></li>
 									</ul>
 								</td>
@@ -150,7 +145,6 @@
 									<div class="column-info"><span>東京都港区六本木7-6-2</span><span><a href="tel:00-0000-0000">00-0000-0000</a></span></div>
 									<ul class="list_action">
 										<li><a href="view_forsalon.php">サロン情報詳細</a></li>
-										<li><a href="#" class="action_duplicate">複製</a></li>
 										<li><a href="#" class="action_delete">削除</a></li>
 									</ul>
 								</td>
@@ -164,7 +158,6 @@
 									<div class="column-info"><span>東京都港区六本木7-6-2</span><span><a href="tel:00-0000-0000">00-0000-0000</a></span></div>
 									<ul class="list_action">
 										<li><a href="view_forsalon.php">サロン情報詳細</a></li>
-										<li><a href="#" class="action_duplicate">複製</a></li>
 										<li><a href="#" class="action_delete">削除</a></li>
 									</ul>
 								</td>
@@ -178,7 +171,6 @@
 									<div class="column-info"><span>東京都港区六本木7-6-2</span><span><a href="tel:00-0000-0000">00-0000-0000</a></span></div>
 									<ul class="list_action">
 										<li><a href="view_forsalon.php">サロン情報詳細</a></li>
-										<li><a href="#" class="action_duplicate">複製</a></li>
 										<li><a href="#" class="action_delete">削除</a></li>
 									</ul>
 								</td>
@@ -192,7 +184,6 @@
 									<div class="column-info"><span>東京都港区六本木7-6-2</span><span><a href="tel:00-0000-0000">00-0000-0000</a></span></div>
 									<ul class="list_action">
 										<li><a href="view_forsalon.php">サロン情報詳細</a></li>
-										<li><a href="#" class="action_duplicate">複製</a></li>
 										<li><a href="#" class="action_delete">削除</a></li>
 									</ul>
 								</td>

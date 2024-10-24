@@ -829,19 +829,18 @@ main>hr{
 }
 .list_dev ul{
     display: block;
-	padding: 10px 0;
 }
 .list_dev li{
     display: inline-block;
-    margin-right: 10px;
+	margin: 3px 10px 3px 0;
     padding-right: 10px;
     border-right: 1px solid #ccc;
     box-shadow: 1px 0 0 #fff;
 }
-.list_dev li:first-child{
-    border-left: 1px solid #ccc;
-    box-shadow: 1px 0 0 #fff inset;
-    padding-left: 10px;
+.list_dev li:last-child{
+    border-right: none;
+    box-shadow: none;
+	padding-right: 0;
 }
 .list_dev ul+select{
 	margin-left: 15px;
