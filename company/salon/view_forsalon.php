@@ -19,9 +19,9 @@
 
 <header>
 	<div id="close"><a href="#"><i></i></a></div>
-	<div class="logo"><a href="/admin/"><img src="/images/cmn/pro.webp" alt="Beauty Scandal Pro"></a></div>
+	<div class="logo"><a href="/company/salon/index_forsalon.php"><img src="/images/cmn/pro.webp" alt="Beauty Scandal Pro"></a></div>
 	<ul>
-		<li><a href="/"><span class="material-symbols-outlined">move_item</span></a></li>
+		<li><a href="#"><span class="material-symbols-outlined">move_item</span></a></li>
 	</ul>
 </header>
 
@@ -29,20 +29,11 @@
 	
 	<div class="row" id="m_title">
 		<div class="col-12">
-			<div class="heading1">サロン情報<span> - BeautyScandalSalon</span></div>
+			<div class="heading1">サロン情報</div>
 		</div>
 	</div>
 	
 	<div class="row" id="m_list">
-		<div class="col-12">
-			<div class="list_dev2">
-				<ul class="btn2">
-					<li><a href="/company/view.php">企業情報</a></li>
-					<li><a href="/company/salon/" class="active-tab">サロン</a></li>
-					<li><a href="/company/staff/">スタッフ</a></li>
-				</ul>
-			</div>
-		</div>
 		<div class="col-12">
 			<div class="msg done">サロン情報を登録しました。</div>
 		</div>
@@ -214,11 +205,8 @@
 	
 	<div id="pan">
 		<ul>
-			<li><a href="/admin/"><span>ダッシュボード</span></a></li>
-			<li><a href="/company/"><span>企業一覧</span></a></li>
-			<li><a href="/company/view.php"><span>株式会社BeautyScandal</span></a></li>
-			<li><a href="/company/salon/"><span>サロン一覧</span></a></li>
-			<li><a href="/company/salon/view.php"><span>BeautyScandalSalon</span></a></li>
+			<li><a href="/company/salon/index_forsalon.php"><span>サロン一覧</span></a></li>
+			<li><a href="/company/salon/view_forsalon.php"><span>BeautyScandalSalon</span></a></li>
 		</ul>
 	</div>
 </main>
@@ -227,77 +215,36 @@
 	<nav>
 		<div id="nav">
 			<ul class="s_list">
-				<li class="st"><a href="/admin/"><span class="material-symbols-outlined">space_dashboard</span>ダッシュボード</a></li>
-				<li class="st"><a href="/order/"><span class="material-symbols-outlined">receipt_long</span>注文一覧</a></li>
-				<li class="st active"><a href="/company/"><span class="material-symbols-outlined">apartment</span>企業一覧<i></i></a>
+				<li class="st"><a href="/company/salon/index_forsalon.php"><span class="material-symbols-outlined">apartment</span>サロン一覧</a></li>
+				<li class="st"><a href="/agency/index_forsalon.php"><span class="material-symbols-outlined">storefront</span>代理店一覧<i></i></a>
 				<ul>
-					<li class="active"><a href="/company/view.php">株式会社BeautyScandal<i></i></a>
+					<li><a href="/agency/view_forsalon.php">代理店AAAAAAAAAA<i></i></a>
 					<ul>
-						<li class="active"><a href="/company/salon/">サロン一覧</a></li>
-						<li><a href="/company/staff/">スタッフ一覧</a></li>
+						<li><a href="/agency/branch/index_forsalon.php">支店一覧</a></li>
 					</ul></li>
-					<li><a href="/company/view.php">株式会社BeautyScandal<i></i></a>
+					<li><a href="/agency/view_forsalon.php">代理店AAAAAAAAAA<i></i></a>
 					<ul>
-						<li><a href="/company/salon/">サロン一覧</a></li>
-						<li><a href="/company/staff/">スタッフ一覧</a></li>
+						<li><a href="/agency/branch/index_forsalon.php">支店一覧</a></li>
 					</ul></li>
-					<li><a href="/company/view.php">株式会社BeautyScandal<i></i></a>
+					<li><a href="/agency/view_forsalon.php">代理店AAAAAAAAAA<i></i></a>
 					<ul>
-						<li><a href="/company/salon/">サロン一覧</a></li>
-						<li><a href="/company/staff/">スタッフ一覧</a></li>
+						<li><a href="/agency/branch/index_forsalon.php">支店一覧</a></li>
 					</ul></li>
-					<li><a href="/company/view.php">株式会社BeautyScandal<i></i></a>
+					<li><a href="/agency/view_forsalon.php">代理店AAAAAAAAAA<i></i></a>
 					<ul>
-						<li><a href="/company/salon/">サロン一覧</a></li>
-						<li><a href="/company/staff/">スタッフ一覧</a></li>
+						<li><a href="/agency/branch/index_forsalon.php">支店一覧</a></li>
 					</ul></li>
-					<li><a href="/company/view.php">株式会社BeautyScandal<i></i></a>
+					<li><a href="/agency/view_forsalon.php">代理店AAAAAAAAAA<i></i></a>
 					<ul>
-						<li><a href="/company/salon/">サロン一覧</a></li>
-						<li><a href="/company/staff/">スタッフ一覧</a></li>
+						<li><a href="/agency/branch/index_forsalon.php">支店一覧</a></li>
 					</ul></li>
-					<li><a href="/company/view.php">株式会社BeautyScandal<i></i></a>
+					<li><a href="/agency/view_forsalon.php">代理店AAAAAAAAAA<i></i></a>
 					<ul>
-						<li><a href="/company/salon/">サロン一覧</a></li>
-						<li><a href="/company/staff/">スタッフ一覧</a></li>
+						<li><a href="/agency/branch/index_forsalon.php">支店一覧</a></li>
 					</ul></li>
-				</ul></li>
-				<li class="st"><a href="/agency/"><span class="material-symbols-outlined">storefront</span>代理店一覧<i></i></a>
-				<ul>
-					<li><a href="/agency/view.php">代理店AAAAAAAAAA<i></i></a>
+					<li><a href="/agency/view_forsalon.php">代理店AAAAAAAAAA<i></i></a>
 					<ul>
-						<li><a href="/agency/branch/">支店一覧</a></li>
-						<li><a href="/agency/staff/">従業員一覧</a></li>
-					</ul></li>
-					<li><a href="/agency/view.php">代理店AAAAAAAAAA<i></i></a>
-					<ul>
-						<li><a href="/agency/branch/">支店一覧</a></li>
-						<li><a href="/agency/staff/">従業員一覧</a></li>
-					</ul></li>
-					<li><a href="/agency/view.php">代理店AAAAAAAAAA<i></i></a>
-					<ul>
-						<li><a href="/agency/branch/">支店一覧</a></li>
-						<li><a href="/agency/staff/">従業員一覧</a></li>
-					</ul></li>
-					<li><a href="/agency/view.php">代理店AAAAAAAAAA<i></i></a>
-					<ul>
-						<li><a href="/agency/branch/">支店一覧</a></li>
-						<li><a href="/agency/staff/">従業員一覧</a></li>
-					</ul></li>
-					<li><a href="/agency/view.php">代理店AAAAAAAAAA<i></i></a>
-					<ul>
-						<li><a href="/agency/branch/">支店一覧</a></li>
-						<li><a href="/agency/staff/">従業員一覧</a></li>
-					</ul></li>
-					<li><a href="/agency/view.php">代理店AAAAAAAAAA<i></i></a>
-					<ul>
-						<li><a href="/agency/branch/">支店一覧</a></li>
-						<li><a href="/agency/staff/">従業員一覧</a></li>
-					</ul></li>
-					<li><a href="/agency/view.php">代理店AAAAAAAAAA<i></i></a>
-					<ul>
-						<li><a href="/agency/branch/">支店一覧</a></li>
-						<li><a href="/agency/staff/">従業員一覧</a></li>
+						<li><a href="/agency/branch/index_forsalon.php">支店一覧</a></li>
 					</ul></li>
 				</ul></li>
 			</ul>

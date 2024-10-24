@@ -823,6 +823,32 @@ main>hr{
 
 /*-----*/
 
+.list_dev{
+	display: flex;
+	align-items: center;
+}
+.list_dev ul{
+    display: block;
+	padding: 10px 0;
+}
+.list_dev li{
+    display: inline-block;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #ccc;
+    box-shadow: 1px 0 0 #fff;
+}
+.list_dev li:first-child{
+    border-left: 1px solid #ccc;
+    box-shadow: 1px 0 0 #fff inset;
+    padding-left: 10px;
+}
+.list_dev ul+select{
+	margin-left: 15px;
+}
+
+/*-----*/
+
 .list_dev2{
 	width: 100%;
 }
@@ -906,7 +932,7 @@ div.list_action{
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: flex-start;
-	width: 100%;
+	margin-right: 15px;
 }
 .col_in div.list_action{
 	padding: 20px 0;
@@ -1315,6 +1341,11 @@ table.datatable .column-title ul.list_action li:last-child{
 .form select[readonly]{
 	pointer-events: none;
 }
+.form input[type="radio"][readonly]+label{
+	opacity: 0.7;
+}
+
+
 .canvas_area{
 	border: 1px solid #ddd;
 	width: 150px;
@@ -1366,6 +1397,66 @@ table.datatable .column-title ul.list_action li:last-child{
 	width: calc(100% - 40px);
 	max-width: 460px;
 	padding-right: 0 !important;
+}
+.form_toggle{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.form_toggle input[type="radio"]{
+	display: none;
+}
+.form_toggle input[type="radio"]+label{
+	display: block;
+	position: relative;
+	z-index: 2;
+}
+.form_toggle input[type="radio"]:checked+label{
+	font-weight: bold;
+	z-index: 1;
+}
+.form_toggle input[type="radio"]:checked+label.form_toggle_label2{
+	color: #089ba3;
+}
+.form_toggle label.form_toggle_label1{
+	padding-right: 55px;
+	padding-left: 0;
+}
+.form_toggle label.form_toggle_label2{
+	margin-left: -48px;
+	padding-left: 55px;
+	padding-right: 0;
+}
+.form_toggle label.form_toggle_label2:before,
+.form_toggle label.form_toggle_label2:after{
+	content: "";
+	display: block;
+	pointer-events: none;
+}
+.form_toggle label.form_toggle_label2:before{
+	width: 35px;
+	height: 14px;
+	background-color: #ddd;
+	border-radius: 100px;
+	position: absolute;
+	top: calc(50% - 7px);
+	left: 5px;
+}
+.form_toggle label.form_toggle_label2:after{
+	width: 18px;
+	height: 18px;
+	border-radius: 100px;
+	position: absolute;
+	top: calc(50% - 10px);
+	left: 3px;
+	background-color: #fff;
+	transition: 0.2s;
+	border: 1px solid rgba(0,0,0,0.1);
+	box-shadow: 2px 2px 0 rgba(0,0,0,0.02);
+}
+.form_toggle input[type="radio"]:checked+label.form_toggle_label2:after{
+	background-color: #089ba3;
+	left: 22px;
 }
 .form_submit{
 	padding: 10px 0;
